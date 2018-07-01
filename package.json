@@ -1,0 +1,50 @@
+{
+  "name": "js-exporter",
+  "version": "1.0.0",
+  "description":
+    "Module that wraps ES6 code for it to work in browsers, Node.js or AMD, from CLI or programmatically.",
+  "main": "src/js-exporter.js",
+  "bin": {
+    "js-export": "bin/js-exporter.bin.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "docs": "javadoc -i src/js-exporter.js -o README.md -f markdown",
+    "test": "mocha test/*.test.js --bail",
+    "test-cli": "mocha test/*.bin.test.js --bail",
+    "test-coverage": "nyc ./node_modules/.bin/mocha test/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "execute-command-sync": "^1.0.2",
+    "function-wrapper": "^1.1.0",
+    "javadoc": "^1.0.3",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2",
+    "yargs": "^12.0.1"
+  },
+  "dependencies": {
+    "uglify-es": "^3.3.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allnulled/js-exporter.git"
+  },
+  "keywords": [
+    "module",
+    "wrapper",
+    "es6",
+    "browser",
+    "nodejs",
+    "amd",
+    "export"
+  ],
+  "bugs": {
+    "url": "https://github.com/allnulled/js-exporter/issues"
+  },
+  "homepage": "https://github.com/allnulled/js-exporter#readme"
+}
