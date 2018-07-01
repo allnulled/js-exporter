@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-const { UniversalExporter } = require(__dirname + "/../src/universal-exporter.js");
+const { JsExporter } = require(__dirname + "/../src/js-exporter.js");
 
 const args = require("yargs")
   .version("1.0.0")
@@ -19,4 +19,4 @@ const args = require("yargs")
   .demandOption(["input", "output"], "Please, provide --input (or -i) and output (or -o) parameters.")
   .argv;
 
-UniversalExporter.exportFile(args.input, args.output);
+JsExporter.exportFile(args.input, args.output);

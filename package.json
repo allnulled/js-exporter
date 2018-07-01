@@ -1,8 +1,7 @@
 {
   "name": "js-exporter",
   "version": "1.0.0",
-  "description":
-    "Module that wraps ES6 code for it to work in browsers, Node.js or AMD, from CLI or programmatically.",
+  "description": "Module that wraps ES6 code for it to work in browsers, Node.js or AMD, from CLI or programmatically.",
   "main": "src/js-exporter.js",
   "bin": {
     "js-export": "bin/js-exporter.bin.js"
