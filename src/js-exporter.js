@@ -1,6 +1,8 @@
 /**
  * # js-exporter
  * 
+ * ![](https://img.shields.io/badge/js--exporter-v1.0.0-green.svg) ![](https://img.shields.io/badge/tests-passing-green.svg) ![](https://img.shields.io/badge/coverage-100%25-green.svg)
+ * 
  * Module that wraps ES6 code for it to work in browsers, Node.js or AMD, from CLI or programmatically.
  * 
  * ## 1. Installation
@@ -169,7 +171,7 @@ class JsExporter {
     optionsBeautification = {},
     token1 = "(^|\n)[\t\r\n ]*\/\/ *\>\> *export +module +to +([a-zA-Z$_][a-zA-Z0-9$_]*) *(\n|$)",
     token1group1 = 2,
-    token2 = "(^|\n)[\t\r\n ]*\/\/ *\>\> *export +module[\t\r\n ]*module\.exports *= *"
+    token2 = "(^|\n)[\t\r\n ]*\/\/ *\>\> *export +module[\t\r\n ]+module\.exports *= *"
   ) {
     var regex1 = new RegExp(token1, "g");
     var regex2 = new RegExp(token2, "g");
