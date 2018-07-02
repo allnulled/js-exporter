@@ -216,6 +216,9 @@ class JsExporter {
 )`;
     var beautification = uglify.minify(code2, Object.assign({
     	compress: false,
+      mangle: {
+        toplevel: false,
+      },
       output: {
         beautify: true
       }
