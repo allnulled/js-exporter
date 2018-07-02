@@ -208,6 +208,14 @@ Missing required arguments: input, output
 Please, provide --input (or -i) and output (or -o) parameters.
 ```
 
+The usage is very simple:
+
+```
+js-export -i "my-file.js" -o "my-file.universal.js"
+```
+
+This will try to universalize and beautify the file "my-file.js" and dump the results into "my-file.universal.js".
+
 ## 6. Commands for the project development
 
 Run tests, coverage reporting, CLI compilation and documentation generation
