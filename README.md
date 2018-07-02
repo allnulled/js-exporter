@@ -2,7 +2,7 @@
 
 # js-exporter
 
-![](https://img.shields.io/badge/js--exporter-v1.0.0-green.svg) ![](https://img.shields.io/badge/tests-passing-green.svg) ![](https://img.shields.io/badge/coverage-100%25-green.svg)
+![](https://img.shields.io/badge/js--exporter-v1.0.1-green.svg) ![](https://img.shields.io/badge/tests-passing-green.svg) ![](https://img.shields.io/badge/coverage-100%25-green.svg)
 
 Module that wraps ES6 code for it to work in browsers, Node.js or AMD, from CLI or programmatically.
 

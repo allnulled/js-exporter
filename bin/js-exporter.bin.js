@@ -3,7 +3,7 @@
 const { JsExporter } = require(__dirname + "/../src/js-exporter.js");
 
 const args = require("yargs")
-  .version("1.0.0")
+  .version("1.0.1")
   .option("input", {
     type: "string",
     alias: "i",
