@@ -8,7 +8,7 @@ Module that wraps ES6 code for it to work in browsers, Node.js or AMD, from CLI 
 
 ## 1. Installation
 
-~$ `npm installation --save-dev js-exporter`
+~$ `npm install --save-dev js-exporter`
 
 ## 2. Preparation
 
